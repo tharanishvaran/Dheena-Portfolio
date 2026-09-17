@@ -1,0 +1,16 @@
+.progress-bar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 9998;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+  transform-origin: left;
+}

@@ -1,0 +1,30 @@
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #050505;
+  z-index: 9990; /* Just below cursor */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.preloader-text {
+  font-family: 'Outfit', sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  display: flex;
+  gap: 0.5rem;
+  overflow: hidden;
+}
+
+.char {
+  transform: translateY(100%);
+  opacity: 0;
+}
